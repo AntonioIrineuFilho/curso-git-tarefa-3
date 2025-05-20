@@ -17,4 +17,10 @@ git tag -a versao-estavel 36eafa8 -m "demarcando o commit inicial"
 git remote add origin https://github.com/AntonioIrineuFilho/curso-git-tarefa-3.git
 git add .
 git commit -m "criação comandos.txt"
+git add .
+git commit -m "envio para branch main"
 git push origin main
+git checkout testando-stash
+git push origin testando-stash
+git checkout main
+git push origin versao-estavel
