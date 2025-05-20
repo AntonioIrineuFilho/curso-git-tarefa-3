@@ -1,0 +1,20 @@
+git init -b main
+git add .
+git commit -m "commit inicial"
+git diff
+got add .
+git commit -m "segundo commit"
+git log
+git log --oneline
+git commit -m "revertendo segundo commit"
+git revert HEAD
+git stash
+git checkout -b testando-stash
+git checkout main
+git stash pop
+git reflog
+git tag -a versao-estavel 36eafa8 -m "demarcando o commit inicial"
+git remote add origin https://github.com/AntonioIrineuFilho/curso-git-tarefa-3.git
+git add .
+git commit -m "criação comandos.txt"
+git push
